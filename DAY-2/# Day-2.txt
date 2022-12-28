@@ -1,0 +1,4 @@
+# Day-2
+--Created React app      
+--Import and export        
+-- coding standard: airbnd and google style guide

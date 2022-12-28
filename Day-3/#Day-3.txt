@@ -1,0 +1,6 @@
+#Day-3
+--installed React libraries and used React icons      
+--creating folder strucure         
+-- components and child components        
+-- props      
+--Assignment: Linkedin clone
