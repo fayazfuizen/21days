@@ -1,0 +1,17 @@
+.Sidebar{
+    /* display: flex; */
+    /* width: 80px; */
+    color: #000;
+    flex: 1;
+}
+.compose__btn{
+    padding: 10px 20px !important;
+    border-radius: 40px !important;
+    color: #000;
+    box-shadow: 2px 2px 3px #ccc;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    margin-left: 10px !important; 
+    max-height: 150px;
+}
+

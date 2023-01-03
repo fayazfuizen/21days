@@ -1,0 +1,104 @@
+.Email__body{
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+
+  } 
+  .Emaillist__settings{
+    display:flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+  }
+  .Emaillist__settings svg{
+    font-size: 18px;
+  }
+  .Emaillist__settings_right{
+    display: flex;
+    align-items: center;
+  }
+  .Emaillist__settings_right p{
+    font-size: 13px;
+  }
+  .Emailtype{
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid whitesmoke;
+
+  }
+  .Emailtype__options{
+    display: flex;
+    align-items: center;
+    min-width: 230px;
+    padding: 0px 10px;
+    cursor: pointer;
+    
+  }
+  .Emailtype__options svg{
+    font-size: 20px;
+    color: grey;
+    margin-right: 10px;
+  }
+  .Emailtype__options p{
+    font-size: 15px;
+  }
+  .Emailtype__options :hover{
+    background-color: whitesmoke;
+  }
+  .Emailbody{
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid whitesmoke;
+    padding: 0px 10px;
+    height: 40px;
+  }
+  /* .Emailbody :hover{
+    box-shadow:2px 2px 4px whitesmoke  ;
+    cursor: pointerffff;
+  } */
+  .Emailbody__left{
+    display: flex;
+    align-items: center;
+    min-width:250px ;
+    flex: 20%;
+  }
+  .Emailbody__left svg{
+    font-size: 18px;
+    color:grey ;
+    margin-right: 15px;
+  }
+  .Emailbody__left h4{
+    font-size: 14px;
+ 
+  }
+  .Emailbody__middle{
+    display: flex;
+    align-items: center;
+    /* margin-left:100px ; */
+    /* flex: 90%; */
+  }
+  .Emailbody__middle_msg{
+    display: flex;
+    align-items: center;
+    /* width: 70%; */
+  }
+  .Emailbody__middle p{
+    font-size:14px;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+    padding:0px 20px  ;
+    /* max-width: 500px; */
+  }
+  .Emailbody__right{
+    display: flex;
+    align-items: center;
+    flex: 10%;
+    justify-content: flex-end;
+  }
+  .Emailbody__right p{
+    font-size: 14px; 
+  }
+
