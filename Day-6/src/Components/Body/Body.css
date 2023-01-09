@@ -1,0 +1,121 @@
+.Email__body{
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+
+  }
+  .Emaillist__settings{
+    display:flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+  }
+  .Emaillist__settings svg{
+    font-size: 18px;
+  }
+  .Emaillist__settings_right{
+    display: flex;
+    align-items: center;
+  }
+  .Emaillist__settings_right p{
+    font-size: 13px;
+  }
+  .Emailtype{
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid whitesmoke;
+
+  }
+  .Emailtype :hover{
+    background-color: #e9e9e9;
+  }
+  .Emailtype__options{
+    display: flex;
+    align-items: center;
+    min-width: 230px;
+    padding: 0px 10px;
+    cursor: pointer;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+  }
+  .Emailtype__options svg{
+    font-size: 20px;
+    color: grey;
+    margin-right: 10px;
+  }
+  .Emailtype__options p{
+    font-size: 15px;
+  }
+  /* .Emailtype__options :hover{
+    background-color: whitesmoke;
+  } */
+  .Emailbody{
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid whitesmoke;
+    padding: 0px 10px;
+    height: 40px;
+  }
+  /* .Emailbody :hover{
+    box-shadow:2px 2px 4px whitesmoke  ;
+    cursor: pointerffff;
+  } */
+  .Emailbody__left{
+    display: flex;
+    align-items: center;
+    min-width:80px ;
+    max-width:100px ;
+    flex: 20%;
+  }
+  .Emailbody__left svg{
+    font-size: 18px;
+    color:grey ;
+    margin-right: 15px;
+  }
+  .Emailbody__left h4{
+    font-size: 14px;
+ 
+  }
+  .Emailbody__middle{
+    display: flex;
+    align-items:left;
+    /* margin-left:100px ; */
+    /* flex: 90%; */
+  }
+  .Emailbody__middle_msg{
+    display: flex;
+    /* align-items: center; */
+    width: 70%;
+    margin:0px 20px ;
+  }
+  .Emailbody__middle_msg p{
+    font-size:14px;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+    padding:0px 20px  ;
+    /* margin-left:-40px ; */
+    /* max-width: 500px; */
+  }
+  .Emailbody__right{
+    display: flex;
+    align-items: center;
+    flex: 10%;
+    justify-content: flex-end;
+  }
+  .Emailbody__right p{
+    font-size: 14px; 
+  }
+
+  .emailbodydiv{
+    position: absolute;
+    top: 100px;
+    left: 220px;
+    align-items: center;
+    width: 83%;
+   }
+
